@@ -1,6 +1,10 @@
 body {
   font-family: 'Helvetica Neue', sans-serif;
+  text-align: center;
 }
 
-
-
+div#main {
+  text-align: left;
+  width: 720px;
+  margin: 50px auto;
+}
