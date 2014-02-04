@@ -1,0 +1,19 @@
+<html>
+  <head>
+    <title>Twatter</title>
+  </head>
+  <body>
+    <h1>Remember when you could roll your own Twitter timelines? You still can.</h1>
+    <ol>
+      <li>Build your Twitter widget here:
+      <br><code><a href="">https://twitter.com/settings/widgets/new/search</a></code>
+      <br>... and note your Twitter id. Mine is 418760697137225728.</li>
+      <li>Put this in your page, where you want your tweets to show up:<br>
+      <code>&lt;ul id="canHazTweets">&lt;/ul></li>
+      <li>Call the script like this:<br>
+      <code>&lt;script src="twatter.js" data-structure-id="canHazTweets" data-widget-id="418760697137225728">&lt;/script></li>
+    </ol>
+    <ul id="tweetage"></ul>
+    <script src="twatter.js" data-structure-id="tweetage" data-widget-id="418760697137225728"></script>
+  </body>
+</html>
